@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    color: rgb(211, 177, 115);
-    background-color: #fdf9d8;
+    color: rgb(144, 146, 129);
+    background-color: #fcfaeb;
 }
 
 .container {
@@ -44,7 +44,7 @@ main {
     padding: 15px;
     border-radius: 17px;
     font-weight: bold;
-    color: rgb(211, 177, 115);
+    color: rgb(144, 146, 129);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,5 +54,11 @@ main {
 
 .link-btn:hover {
     transform: rotate(1deg);
+    background-color: #fdf8d4;
 }
 
+@media screen and (max-width: 475px) {
+    .link-btn {
+        padding-left: 38%;
+    }
+}
